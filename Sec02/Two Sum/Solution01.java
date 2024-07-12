@@ -1,3 +1,8 @@
+/**
+ * 풀이법 01 : 2중 looping
+ * 실행 시간 : 53ms
+ */
+
 public class Solution01 {
     public int[] twoSum(int[] nums, int target) {
         for (int i = 0; i < nums.length - 1; i++) {
