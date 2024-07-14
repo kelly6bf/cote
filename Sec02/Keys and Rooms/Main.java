@@ -16,7 +16,13 @@ public class Main {
             List.of(0)
         );
 
-        System.out.println(new Solution().canVisitAllRooms(input1));  
-        System.out.println(new Solution().canVisitAllRooms(input2));        
+        System.out.println(new Solution01().canVisitAllRooms(input1));  
+        System.out.println(new Solution01().canVisitAllRooms(input2));        
+
+        System.out.println();
+        System.out.println();
+
+        System.out.println(new Solution02().canVisitAllRooms(input1));  
+        System.out.println(new Solution02().canVisitAllRooms(input2)); 
     }
 }

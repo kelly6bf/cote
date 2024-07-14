@@ -1,6 +1,10 @@
+/**
+ * 풀이 01 : bfs
+ */
+
 import java.util.*;
 
-public class Solution {
+public class Solution01 {
     public boolean canVisitAllRooms(List<List<Integer>> rooms) {
         boolean[] visited = bfs(rooms);
         return checkAllVisited(visited);
